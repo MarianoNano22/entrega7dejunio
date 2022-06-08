@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/estilos.css">
+</head>
+<body>
+     <!-- Empieza barra navegacion -->
+     <nav class="navbar navbar-expand-md navbar-dark fondo-nav">
+        <a class="navbar-brand" href="#">NUTRICION</a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="/index.html">Inicio</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/assets/pages/consejosutiles.html">Consejos Utiles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/assets/pages/escenciales.html">Escenciales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/assets/pages/masinformacion.html">Mas Informacion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/assets/pages/contacto.html">Contacto</a>
+              </li>
+          </ul>
+        </div>
+    </nav>
+  <!-- Termina barra navegacion -->
+    
+    <div class="contacto"><h1>CONTACTO </h1> <br><br><br>
+        <form action="enviar-formulario.php" method="post"><label>Nombre:</label> <br>
+            <input maxlength="50" name="nombre" required size="50" type="text" autofocus placeholder="Escribe tu nombre" /><br>
+            <label>Email:</label> <br>
+            <input name="email" required type="email" placeholder="Escribe tu email" /><br>
+            <label>Teléfono</label>
+            <input name="telefono" pattern="[0-9]{9}" required type="tel" placeholder="XXXXXXXXX" /> <br>
+                    <textarea cols="80" name="observaciones" rows="8">
+            Puedes escribir aquí tus observaciones...</textarea>
+            <input type="submit" value="Enviar" />
+            </form>
+        </div>  
+            <br>
+            <div class="mapa"><h3>MAPA</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.487275971047!2d-58.45360258501022!3d-34.61712456571407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca17fdb3ccff%3A0xce06e6c991749aad!2sFragata%20Pres.%20Sarmiento%20578%2C%20C1405APD%20CABA!5e0!3m2!1ses-419!2sar!4v1650408322180!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </div>
+            <br>
+
+
+    <footer>
+        <p>Todos los derechos reservados por Copyright 2022</p>
+        <div class="redes">
+            <a href="https://www.youtube.com/c/SanarNutricionArgentina"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/sanar.nutricion"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/NutricionSanar"><i class="fa-brands fa-twitter-square"></i></a>
+        </div>
+    </footer>
+    
+</body>
+</html>

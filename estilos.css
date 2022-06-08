@@ -1,0 +1,65 @@
+body {
+  background-color: orange;
+}
+
+.fondo-nav {
+  background-image: url(/assets/img/1583867671316.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron {
+  color: rgb(252, 255, 252) border-radius 0%;
+}
+
+.navbar-brand {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  height: 50%;
+  width: 100%;
+  background-color: rgb(255, 149, 0);
+}
+
+.texto {
+  float: center;
+  width: 100%;
+  background: linear-gradient(to bottom, coral, rgb(93, 61, 1));
+}
+
+video {
+  text-align: center;
+  color: blanchedalmond;
+  font-weight: bold;
+}
+
+footer {
+  min-height: 90px;
+  width: 100%;
+  background-color: orange;
+  text-align: center;
+  font-size: 25px;
+}
+
+fotter p {
+  margin-bottom: 20px;
+}
+
+footer i {
+  color: darkred;
+  font-size: 35px;
+  letter-spacing: 20px;
+}
+
+.redes {
+  text-align: center;
+}
+
+/*# sourceMappingURL=estilos.css.map */
