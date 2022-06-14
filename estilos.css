@@ -1,5 +1,6 @@
 body {
   background-color: orange;
+  background-color: darkorange;
 }
 
 .fondo-nav {
@@ -29,12 +30,13 @@ main {
 }
 
 .texto {
+  background-color: orange;
+  background-color: darkorange;
   float: center;
   width: 100%;
-  background: linear-gradient(to bottom, coral, rgb(93, 61, 1));
 }
 
-video {
+.video {
   text-align: center;
   color: blanchedalmond;
   font-weight: bold;
@@ -48,7 +50,7 @@ footer {
   font-size: 25px;
 }
 
-fotter p {
+.fotter p {
   margin-bottom: 20px;
 }
 

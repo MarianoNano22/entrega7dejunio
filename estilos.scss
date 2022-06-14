@@ -1,5 +1,12 @@
+$color1: orange;
+$color2: darkorange;
+
+$ancho1: width 619px;
+$ancho2: width 618px;
+
 body{
-    background-color: orange;
+    @if $ancho1 ≥ $ancho2 {background-color: $color1}
+    @if $ancho1 ≤ $ancho2 {background-color: $color2}
 }
 .fondo-nav{
     background-image: url(/assets/img/1583867671316.jpg);
@@ -25,11 +32,13 @@ main{
 
 }
 .texto{
+    @if $ancho1 ≥ $ancho2 {background-color: $color1};
+    @if $ancho1 ≤ $ancho2 {background-color: $color2};
     float: center;
     width: 100%;
-    background: linear-gradient(to bottom, coral, rgb(93, 61, 1));
+
 }
-video{
+.video{
     text-align: center;
     color: blanchedalmond;
     font-weight: bold;
@@ -41,7 +50,7 @@ footer{
     text-align: center;
     font-size: 25px;
 }
-fotter p{
+.fotter p{
     margin-bottom: 20px;
 }
 footer i{
